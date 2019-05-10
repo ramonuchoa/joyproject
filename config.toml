@@ -1,0 +1,196 @@
+baseURL = "http://restaurantejoy.com.br/"
+languageCode = "pt-br"
+title = "Restaurante Joy"
+summaryLength = "7"
+
+
+
+# Menu
+[menu]
+
+	[[menu.nav]]
+    name = "Início"
+    URL = "hero-area"
+    weight = 1
+
+    [[menu.nav]]
+    name = "Sobre nós"
+    URL = "about-us"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "blog"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Cardápio"
+    URL = "price"
+    weight = 4
+
+    [[menu.nav]]
+    name = "News"
+    URL = "subscribe"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Contato"
+    URL = "contact-us"
+    weight = 6
+
+
+
+# Global Settings
+[params]
+logo = "images/logo.png"
+
+
+[params.heroArea]
+enable = true
+[params.heroImg ]
+url =  "images/header.jpg"
+
+
+#gallery item
+
+[params.gallery]
+enable = true
+title= "Nossos <span>Pratos</span>"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-1.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-2.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-3.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-4.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-1.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-2.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/slider-img-3.jpg"
+
+
+[params.about]
+enable = true
+title= "Tenha uma nova <span>experiência</span> no Restaurante Joy."
+bgImage = "images/cooker-img.png"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+
+
+
+
+#food Menu
+
+[params.foodMenu]
+enable = true
+title = "Nosso <span>Cardápio</span>"
+description= " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+subtitle = ""
+
+[[params.foodMenu.item]]
+title="Prato 01"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 125.00"
+
+[[params.foodMenu.item]]
+title="Prato 01"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 125.00"
+
+[[params.foodMenu.item]]
+title="Prato 01"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 125.00"
+
+[[params.foodMenu.item]]
+title="Prato 01"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 125.00"
+
+[[params.foodMenu.item]]
+title="Prato 01"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 125.00"
+
+
+
+#subscription
+
+[params.subscription]
+enable = true
+title= "Inscreva-se em nossa <span>Newsletter</span>"
+description = "Receba novidades sobre nossos pratos e eventos."
+
+#Mailchimp subscription configaration
+formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+
+#Contact
+
+[params.contact]
+enable = true
+title= "Fale <span>Conosco</span>"
+subtitle= ""
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+
+
+#Footer
+
+[params.footer]
+enable = true
+contactInfoTitle = "Mais <span>Informações</span> "
+blogTitle = "Últimas <span>Postagens</span>"
+galleryTitle = "Galeria de <span>Fotos</span>"
+socialTitle = "Siga-nos nas <span>Redes Sociais</span>"
+
+[[params.footer.contactItem]]
+title="Telefone"
+icon = "fa fa-phone"
+content = "+55 21 1234 5678"
+
+[[params.footer.contactItem]]
+title="Endereço"
+icon = "fa fa-map-marker"
+content = "Nome da rua, 1234 - Cidade"
+
+[[params.footer.contactItem]]
+title="E-mail"
+icon = "fa fa-envelope"
+content = "restaurante@joy.com.br"
+
+[[params.footer.socialLink]]
+icon = "facebook"
+link = "#"
+
+[[params.footer.socialLink]]
+icon = "twitter"
+link = "#"
+
+[[params.footer.socialLink]]
+icon = "instagram"
+link = "#"
+
+
+#Footer Copyright
+
+#Footer Copyright Text
+[params.footerCopyright]
+enable = true
+Text = "Copyright 2019 - Restaurante Joy"
+
+
+
+
+#blog
+[params.blog]
+enable = true
+title = "Últimas <span>Postagens</span>"
