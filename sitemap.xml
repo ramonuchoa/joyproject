@@ -4,19 +4,24 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-05-15T12:00:00-03:00</lastmod>
+    <lastmod>2019-06-07T10:42:31-03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-06-07T10:42:31-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/system-of-a-down/</loc>
+    <lastmod>2019-06-07T10:42:31-03:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/decimo-quinto/</loc>
     <lastmod>2019-05-15T12:00:00-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2019-05-15T12:00:00-03:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
